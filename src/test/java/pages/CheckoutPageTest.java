@@ -148,12 +148,12 @@ public class CheckoutPageTest extends LoginTest {
 
 //TEST CASES :
 
-//1. Verify page loads successfully - DONE
-//2. Verify UI Elements Validation - DONE
-//3. Mandatory Fields Validation (All Empty) - DONE
-//4. Individual Field Validation (Granular Errors) - DONE
-//5. Valid Input → Navigation to Step Two - DONE
+//1. Verify page loads successfully 
+//2. Verify UI Elements Validation
+//3. Mandatory Fields Validation (All Empty) 
+//4. Individual Field Validation (Granular Errors) 
+//5. Valid Input → Navigation to Step Two 
 //6. Postal Code Format Validation - bug in this test case
-//9. Cancel Button Functionality - DONE
+//9. Cancel Button Functionality 
 
 
