@@ -16,42 +16,11 @@ import java.time.Duration;
 public class LoginTest extends BaseTest {
 	
 	
-//		
-//
-//		obj.setUp();
-//		obj.InvalidLogin();
-//		
-//		obj.setUp();
-//		obj.ValidUserInvalidPwd();
-//		
-//		obj.setUp();
-//		obj.InvalidUserValidPwd();
-		
-//		obj.setUp();
-//		obj.emptyusername();
-//		
-//		obj.setUp();
-//		obj.emptypassword();
-//		
-//		obj.setUp();
-//		obj.emptyusernamepassword();
-		
-		//obj.tearDown();
-	
 
-//    WebDriver driver;
 
-//    @BeforeEach
-//    public void setUp() {
-//        WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver();
-//
-//        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//        driver.get("https://www.saucedemo.com/");
-//        
-//        
-//    }
+
+
+
     
 	 @BeforeClass
 	    public void validLogin() throws InterruptedException {
@@ -70,7 +39,7 @@ public class LoginTest extends BaseTest {
 	    }
 	
     
- //   @Test
+    @Test
     public void invalidLogin() {
     	
     	driver.findElement(By.id("user-name")).sendKeys("invalid_username");
@@ -80,7 +49,7 @@ public class LoginTest extends BaseTest {
     	System.out.println(error_message);
     }
     
- //   @Test
+    @Test
     public void ValidUserInvalidPwd() {
     	
     	driver.findElement(By.id("user-name")).sendKeys("standard_user");
@@ -91,7 +60,7 @@ public class LoginTest extends BaseTest {
     	
     }
     
- //   @Test
+    @Test
     public void InvalidUserValidPwd() {
     	
     	driver.findElement(By.id("user-name")).sendKeys("invalid_username");
@@ -102,7 +71,7 @@ public class LoginTest extends BaseTest {
     	
     }
     
- //   @Test
+    @Test
     public void emptyusername() {
     	
     	
@@ -113,7 +82,7 @@ public class LoginTest extends BaseTest {
     	
     }
     
-//    @Test
+    @Test
     public void emptypassword() {
     	
     	
@@ -124,7 +93,7 @@ public class LoginTest extends BaseTest {
     	
     }
     
- //   @Test
+    @Test
     public void emptyusernamepassword() {
     	
     	
@@ -137,12 +106,12 @@ public class LoginTest extends BaseTest {
     
     
 
-//    @AfterEach
-//    public void tearDown() {
-//        if (driver != null) {
-//            driver.quit();
-//        }
-//    }
+   @AfterEach
+   public void tearDown() {
+       if (driver != null) {
+           driver.quit();
+       }
+   }
 }
 
 
