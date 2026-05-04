@@ -142,14 +142,14 @@ public class ProductDetailsTest extends LoginTest {
 
 //TEST CASES :
 
-//1. Verify Product Detail Page URL is correct - DONE
-//1. Verify Product Detail Page Loads Successfully - DONE
-//2. Verify Correct Product Name is Displayed - DONE
-//3. Verify Product Description is Displayed - DONE
-//4. Verify Product Price is Displayed Properly - DONE
-//5. Verify Product Image is Displayed - DONE
-//6. Verify “Add to Cart” Button is Visible and Clickable - DONE
-//7. Verify Add to Cart Functionality - DONE
-//8. Verify Remove Button Functionality - DONE
-//9. Verify Cart Badge Updates Correctly - DONE
-//10. Verify “Back to Products” Navigation - DONE
+//1. Verify Product Detail Page URL is correct 
+//1. Verify Product Detail Page Loads Successfully 
+//2. Verify Correct Product Name is Displayed 
+//3. Verify Product Description is Displayed 
+//4. Verify Product Price is Displayed Properly 
+//5. Verify Product Image is Displayed
+//6. Verify “Add to Cart” Button is Visible and Clickable 
+//7. Verify Add to Cart Functionality 
+//8. Verify Remove Button Functionality 
+//9. Verify Cart Badge Updates Correctly 
+//10. Verify “Back to Products” Navigation 
