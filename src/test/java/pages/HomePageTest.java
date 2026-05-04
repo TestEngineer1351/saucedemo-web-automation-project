@@ -264,46 +264,40 @@ public class HomePageTest extends LoginTest {
 
 
 //TEST CASES :
-//Verify Inventory page loads successfully after valid login  - DONE
+//Verify Inventory page loads successfully after valid login  
 //
 ////
 //
-//Verify all products are displayed on the Inventory page  - DONE
+//Verify all products are displayed on the Inventory page 
 //
 ////
 //
-//Verify each product displays name, price, description, and image - DONE
+//Verify each product displays name, price, description, and image 
 //
 ////
 //
-//Verify clicking on a product name navigates to the product details page - DONE
+//Verify clicking on a product name navigates to the product details page 
 //
 ////
 //
-//Verify "Add to Cart" button adds the product to the cart - DONE
+//Verify "Add to Cart" button adds the product to the cart 
 //
 ////
 //
-//Verify cart icon count increases when a product is added - DONE
+//Verify cart icon count increases when a product is added 
 //
 ////
 //
-//Verify "Remove" button removes the product from the cart - DONE
+//Verify "Remove" button removes the product from the cart 
 //
 ////
 //
-//Verify cart icon count decreases when a product is removed - DONE
+//Verify cart icon count decreases when a product is removed 
 //
 ////
 //
-//Verify sorting products by Name (Z to A) - DONE 
+//Verify sorting products by Name (Z to A) 
 //
 ////
 //
-//Verify sorting products by Price (Low to High) - DONE
-//
-////
-//
-//Verify unauthorized user cannot access Inventory page directly
-//
-////
+//Verify sorting products by Price (Low to High) 
